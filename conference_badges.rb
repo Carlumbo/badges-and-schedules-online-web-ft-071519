@@ -9,6 +9,6 @@ def batch_badge_creator(attendees)
 end 
 def assign_rooms(attendees)
   new_array = []
-  attendees.each_with_index.map {|badge, index| new_array << "Hello, #{badge}! You'll be assigned to room #{index}!"}
+  attendees.each_with_index.map {|badge, index| new_array << "Hello, #{badge}! You'll be assigned to room #{index+1}!"}
   new_array
 end 
