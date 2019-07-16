@@ -15,4 +15,8 @@ def assign_rooms(attendees)
 end 
 
 printer(attendees)
-  batch_badge_creator
+  batch_badge_creator[attendees].each do 
+  end 
+  assign_rooms[attendees] do
+  end 
+end 
