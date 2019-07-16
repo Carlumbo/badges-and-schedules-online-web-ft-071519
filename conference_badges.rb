@@ -19,4 +19,3 @@ printer(attendees)
   end 
   assign_rooms[attendees] do
   end 
-end 
