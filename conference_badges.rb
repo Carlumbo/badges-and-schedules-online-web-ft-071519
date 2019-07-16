@@ -16,6 +16,7 @@ end
 
 printer(attendees)
   batch_badge_creator[attendees].each do 
+    puts 
   end 
   assign_rooms[attendees] do
   end 
