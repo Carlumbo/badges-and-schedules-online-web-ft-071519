@@ -5,8 +5,8 @@ end
 def batch_badge_creator(attendees)
   count = 0 
   while count < attendees.length do 
-    "Hello, my name is #{attendees}"
+    new array << "Hello, my name is #{attendees}"
     count += 1
   end 
-  batch_badge_creator
+  new_array
 end 
